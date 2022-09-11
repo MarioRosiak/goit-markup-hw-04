@@ -89,7 +89,7 @@ h3 {
   font-weight: 700;
   font-size: 14px;
 }
-.container{
+.container {
   width: 1200px;
 }
 
@@ -482,4 +482,25 @@ h3 {
   padding-top: 4px;
   margin: 0px;
   margin-bottom: 20px;
+}
+/* -----home work 04----- */
+.icons-property-set {
+  display: flex;
+  justify-content: center;
+  column-gap: 30px;
+  margin-top: 94px;
+}
+.icon-property-item {
+  width: 270px;
+  height: 120px;
+  border-radius: 4px;
+  background: #f5f4fa;
+}
+.icons-property {
+  display: inline-block;
+  /* width: 1em;
+  height: 1em; */
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
 }
