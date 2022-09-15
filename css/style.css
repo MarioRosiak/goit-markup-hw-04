@@ -107,6 +107,8 @@ h3 {
 }
 
 .mail-item {
+  display: flex;
+  width: 185px;
   font-weight: 500;
   font-size: 14px;
   color: var(--Grey);
@@ -124,10 +126,10 @@ h3 {
 }
 
 .tel-item {
+  display: flex;
   font-weight: 500;
   font-size: 14px;
   color: var(--Grey);
-  padding-left: 50px;
 }
 
 .tel-item:hover,
@@ -328,17 +330,25 @@ h3 {
 
 .contact-item {
   margin: 0px;
-  padding: 32px 0px 0px 0px;
+  padding-top: 32px;
   display: flex;
-  width: 295px;
+  width: 532px;
+  gap: 10px;
+  justify-content: center;
+  justify-items: center;
 }
-
+.email-tel {
+  padding-right: 10px;
+}
 .portf-item {
   justify-content: left;
 }
 
 .tel-item {
+  /* width: 200px; */
   justify-content: right;
+}
+.set-emal {
 }
 
 /* Lore Ipsum */
@@ -500,7 +510,8 @@ h3 {
 }
 /* -----home work 04----- */
 .container-icon {
-  margin-top: 94px;
+  padding: 0px;
+  margin: 94px 0 0 0;
   display: flex;
   column-gap: 30px;
   justify-content: center;
@@ -515,16 +526,18 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: red;
 }
 .icon {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   gap: 30px;
+  width: 70px;
 }
 
 .icon:hover {
-  fill: #03a9f4;
+  fill: #03aa9f4;
 }
 .client-container {
   display: flex;
