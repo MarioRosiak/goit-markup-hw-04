@@ -90,6 +90,13 @@ h3 {
   font-weight: 700;
   font-size: 14px;
 }
+h4 {
+  color: var(--White);
+  font-family: "Roboto";
+  font-weight: 700;
+  line-height: 16px;
+  font-size: 14px;
+}
 .container {
   width: 1200px;
 }
@@ -233,7 +240,8 @@ h3 {
 }
 
 /* adress-bottom */
-.footer-adress {
+.footer {
+  display: flex;
   width: 100%;
   height: 252px;
   background: var(--Dark-Blue);
@@ -347,8 +355,6 @@ h3 {
 .tel-item {
   /* width: 200px; */
   justify-content: right;
-}
-.set-emal {
 }
 
 /* Lore Ipsum */
@@ -530,27 +536,30 @@ h3 {
 }
 .icon {
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
-  gap: 30px;
-  width: 70px;
 }
 
 .icon:hover {
-  fill: #03aa9f4;
+  /* fill: #03aa9f4; */
+  fill: var(--Light-Blue);
 }
 .client-container {
   display: flex;
   justify-content: center;
   justify-items: center;
+  padding: 50px 0 94px 0;
+  gap: 30px;
 }
 .client-box {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
   width: 170px;
   height: 92px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
 }
-.client-set {
+/* .client-set {
   padding: 50px 0 094px 0;
   display: flex;
   gap: 30px;
@@ -561,4 +570,24 @@ h3 {
   height: 92px;
   cursor: pointer;
   border: 1px colid var(--Svg-grey);
+}
+ */
+.social-media {
+  padding: 16px 32px 18px 32px;
+  height: 56px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  gap: 39px;
+}
+.footer-social-media {
+  display: block;
+}
+.set-logo-adress {
+  width: 246px;
+}
+.media-set-footer {
+  display: flex;
+  gap: 70px;
 }
