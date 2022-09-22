@@ -116,7 +116,7 @@ h4 {
 
 .mail-item {
   display: flex;
-  width: 185px;
+  width: 161px;
   font-weight: 500;
   font-size: 14px;
   color: var(--Grey);
@@ -135,8 +135,7 @@ h4 {
 
 .tel-item {
   display: flex;
-  justify-content: left ;
-  width: 357px;
+  width: 160px;
   font-weight: 500;
   font-size: 14px;
   color: var(--Grey);
@@ -343,10 +342,9 @@ h4 {
   margin: 0px;
   padding-top: 32px;
   display: flex;
-  /* width: 532px; */
   gap: 10px;
   justify-content: center;
-  justify-items: center;
+  
 }
 .email-tel {
   padding-right: 10px;
@@ -533,8 +531,9 @@ h4 {
   color: red;
 }
 .icon {
-  display: flex;
-  width: auto;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
 }
 
 .icon:hover {
@@ -552,24 +551,14 @@ h4 {
   display: flex;
   justify-content: center;
   justify-items: center;
+  align-items: center;
   width: 170px;
   height: 92px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
-}
-/* .client-set {
-  padding: 50px 0 094px 0;
-  display: flex;
-  gap: 30px;
-  display: flex;
-}
-.icon-clients {
-  width: 170px;
-  height: 92px;
   cursor: pointer;
-  border: 1px colid var(--Svg-grey);
 }
- */
+
 .social-media {
   padding: 16px 32px 18px 32px;
   height: 56px;
@@ -601,17 +590,32 @@ width: 44px;
 height: 44px;
 border-radius: 50%;
 background-color: var(--White);
+cursor: pointer;
 }
-.social-media-icon-footer {
-  fill: var(--Light-Blue);
+.social-media-icon-footer{
+  fill: var(--White);
   width: 44px;
   height: 44px;
   border-radius: 50%;
   background-color: var(--Black-social-media);
-}
-.social-media-icon-footer:hover,
-.social-media-icon:hover{
-  fill: var(--White);
   cursor: pointer;
+}
+.social-media-icon:hover,
+.social-media-icon-footer:hover{
   background-color: var(--Light-Blue);
+  fill: var(--White);
+
+}
+.icon-client{
+  width: 106;
+  height: 60;
+  fill: #AFB1B8;
+
+}
+.client-box:hover{
+  border: 1px solid var(--Light-Blue);
+}
+.icon-client:hover{
+  fill: var(--Light-Blue);
+  
 }
