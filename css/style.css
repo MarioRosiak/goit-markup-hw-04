@@ -100,6 +100,7 @@ h4 {
 }
 .container {
   width: 1200px;
+  display: block;
 }
 
 .link {
@@ -210,7 +211,9 @@ h4 {
   height: 50px;
   color: var(--White);
 }
-
+.btn-services:hover{
+  background-color: #1187e8e4;
+}
 .box {
   background-color: var(--Withe);
   padding-bottom: 1px;
@@ -508,8 +511,6 @@ h4 {
   margin: 94px 0 0 0;
   display: flex;
   column-gap: 30px;
-  justify-content: center;
-  padding: 16px;
 }
 .container-icon-item {
   width: 270px;
@@ -612,5 +613,4 @@ cursor: pointer;
 }
 .icon-client:hover{
   fill: var(--Light-Blue);
-  
 }
