@@ -328,12 +328,12 @@ h4 {
 }
 .logo-nav {
   display: flex;
-  max-width: 1200px;
+  width: 1200px;
 }
 
 .link-item {
   display: flex;
-  width: 558px;
+  width: 630px;
   margin: 0px;
   padding-top: 32px;
 }
@@ -342,15 +342,7 @@ h4 {
   margin: 0px;
   padding-top: 32px;
   display: flex;
-  gap: 10px;
-  justify-content: center;
-  
-}
-.email-tel {
-  padding-right: 10px;
-}
-.portf-item {
-  justify-content: left;
+  gap: 30px;
 }
 
 /* Lore Ipsum */
@@ -531,13 +523,16 @@ h4 {
   color: red;
 }
 .icon {
-  display: inline-block;
   margin: 0;
   padding: 0;
 }
-
+.icon-mail-tel{
+  width: 16px;
+  fill: var(--Grey);
+  margin-right: 10px;
+}
+.icon-mail-tel:hover,
 .icon:hover {
-  /* fill: #03aa9f4; */
   fill: var(--Light-Blue);
 }
 .client-container {
